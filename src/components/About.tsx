@@ -38,10 +38,10 @@ export default function About() {
               <span className="text-sm font-bold uppercase tracking-widest text-brand-dark">About Us</span>
             </div>
             <h2 className="text-4xl md:text-5xl text-brand-dark leading-tight">
-              At Finovo, we help businesses navigate complex finances with confidence.
+              At The Tax Consultant, we help businesses navigate complex tax filings with confidence.
             </h2>
             <p className="text-lg text-gray-600 font-body leading-relaxed">
-              With years of experience and a truly client-focused approach, we empower businesses to unlock new opportunities and achieve financial stability.
+              With years of experience and a truly client-focused approach, we empower businesses to simplify taxes, optimize URA compliance, and achieve financial stability.
             </p>
             <button className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 hover:bg-brand-dark transition-all group">
               About company
@@ -75,7 +75,7 @@ export default function About() {
 
         {/* Global Trust Section */}
         <div className="mt-32 grid lg:grid-cols-2 gap-20 items-center">
-           <motion.div
+          <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}

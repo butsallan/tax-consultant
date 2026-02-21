@@ -6,9 +6,9 @@
   --font-display: "Manrope", sans-serif;
   --font-body: "Work Sans", sans-serif;
 
-  --color-brand-primary: #017984;
-  --color-brand-dark: #2c3e50;
-  --color-brand-bg: #f7f7f7;
+  --color-brand-primary: #1e3a8a;
+  --color-brand-dark: #0f172a;
+  --color-brand-bg: #f8fafc;
 }
 
 @layer base {
@@ -16,7 +16,12 @@
     @apply font-sans text-brand-dark bg-white;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-display font-semibold tracking-tight;
   }
 }

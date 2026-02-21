@@ -45,8 +45,8 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white leading-[1.1] mb-8 tracking-tight"
           >
-            Smart solution for a <br />
-            <span className="text-brand-primary">stronger future</span>
+            Expert Tax Solutions <br />
+            <span className="text-brand-primary">for Uganda</span>
           </motion.h1>
 
           <motion.p
@@ -55,7 +55,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-white/80 mb-12 max-w-xl font-body leading-relaxed"
           >
-            We provide expert accounting and financial consulting to help your business grow with confidence and premium authority.
+            Get professional help with URA taxes, compliance, and planning. We make tax easy for individuals and businesses throughout Uganda.
           </motion.p>
 
           <motion.div

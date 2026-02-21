@@ -3,24 +3,24 @@ import { PieChart, BarChart3, Landmark, Calculator, ArrowRight, ShieldCheck, Arr
 
 const services = [
   {
-    title: "Financial Planning and Strategy",
-    icon: <PieChart className="w-8 h-8" />,
-    desc: "Comprehensive roadmaps for long-term wealth and business stability."
-  },
-  {
-    title: "Tax Optimization and Compliance",
+    title: "EFRIS Guidance",
     icon: <Calculator className="w-8 h-8" />,
-    desc: "Strategic tax planning to minimize liabilities and ensure full compliance."
+    desc: "Expert guidance on EFRIS to optimize your URA compliance and manage electronic invoices."
   },
   {
-    title: "Risk Management and Investment",
-    icon: <ShieldCheck className="w-8 h-8" />,
-    desc: "Protecting your assets while identifying high-growth opportunities."
+    title: "Tax Filings & Compliance",
+    icon: <PieChart className="w-8 h-8" />,
+    desc: "Navigate complex tax filings easily. We ensure accurate and timely submission of Income Tax, VAT & PAYE."
   },
   {
-    title: "Strategic Mergers Advisory",
+    title: "Customs Imports & Exports",
     icon: <Landmark className="w-8 h-8" />,
-    desc: "Expert guidance through acquisitions and business transitions."
+    desc: "Comprehensive solutions for managing cross-border trade, customs valuation and clearance."
+  },
+  {
+    title: "NSSF & URSB Support",
+    icon: <ShieldCheck className="w-8 h-8" />,
+    desc: "Complete assistance with both NSSF and URSB registrations, monthly returns and compliance."
   }
 ];
 
@@ -29,7 +29,7 @@ export default function Services() {
     <section id="services" className="section-padding bg-white relative overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-brand-bg -z-0 rounded-l-[100px] hidden lg:block" />
-      
+
       <div className="container-custom relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <motion.div
@@ -50,7 +50,7 @@ export default function Services() {
                 We offer a comprehensive range of financial services designed to help your business grow, stay compliant, and thrive in any market.
               </p>
             </div>
-            
+
             <div className="relative group overflow-hidden rounded-3xl">
               <img
                 src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2022&auto=format&fit=crop"

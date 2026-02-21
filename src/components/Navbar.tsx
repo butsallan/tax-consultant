@@ -16,17 +16,16 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "py-4 bg-white/80 backdrop-blur-md shadow-sm" : "py-6 bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "py-4 bg-white/80 backdrop-blur-md shadow-sm" : "py-6 bg-transparent"
+        }`}
     >
       <div className="container-custom flex items-center justify-between px-6">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-brand-primary rounded-lg flex items-center justify-center">
-            <span className="text-white font-display font-bold text-xl">F</span>
+            <span className="text-white font-display font-bold text-xl">T</span>
           </div>
           <span className={`text-2xl font-display font-bold tracking-tighter ${isScrolled ? "text-brand-dark" : "text-white"}`}>
-            Finovo
+            The Tax Consultant
           </span>
         </div>
 
@@ -36,9 +35,8 @@ export default function Navbar() {
             <a
               key={item}
               href={`#${item.toLowerCase().replace(" ", "-")}`}
-              className={`text-sm font-medium transition-colors ${
-                isScrolled ? "text-brand-dark hover:text-brand-primary" : "text-white/80 hover:text-white"
-              }`}
+              className={`text-sm font-medium transition-colors ${isScrolled ? "text-brand-dark hover:text-brand-primary" : "text-white/80 hover:text-white"
+                }`}
             >
               {item}
             </a>

@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="space-y-12">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-brand-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-display font-bold text-xl">F</span>
+                <span className="text-white font-display font-bold text-xl">T</span>
               </div>
               <span className="text-2xl font-display font-bold tracking-tighter">
-                Finovo
+                The Tax Consultant
               </span>
             </div>
             <h3 className="text-3xl md:text-4xl font-display font-bold leading-tight max-w-md">
@@ -76,16 +76,16 @@ export default function Footer() {
           <div className="space-y-6">
             <h6 className="font-bold uppercase tracking-widest text-xs text-white/40">Contacts</h6>
             <ul className="space-y-4 text-white/70 font-body text-sm">
-              <li>123 Finance Street, New York, NY 10001</li>
-              <li>+1 (555) 123-4567</li>
-              <li>contact@example.com</li>
+              <li>Kampala, Uganda</li>
+              <li>+256 785 230670</li>
+              <li>taxissues.go@gmail.com</li>
             </ul>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-12 border-t border-white/5 text-white/40 text-xs font-body">
-          <p>© Finovo. All rights reserved.</p>
-          <p>Designed by <a href="#" className="hover:text-white transition-colors underline underline-offset-4">fourtwelve</a>.</p>
+          <p>© The Tax Consultant. All rights reserved.</p>
+          <p>Designed by <a href="#" className="hover:text-white transition-colors underline underline-offset-4">Agency Pro</a>.</p>
         </div>
       </div>
     </footer>
